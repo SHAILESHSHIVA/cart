@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signup.css" />
+    <title>SignUp</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-side-part">MeShop.</div>
+      <div class="right-header-part">
+        <span id="home" onclick="document.location.href='../index.html'" >Home</span><span id="login" onclick="document.location.href='login.html'">Login</span
+          ><span id="signup" onclick="document.location.href='../signup/signup.html'">SignUp</span><span id="mycart" onclick="document.location.href='../cart/cart.html'">My Cart</span
+          ><span id="profile" onclick="document.location.href='../profile/profile.html'">Profile</span>
+    </header>
+
+    <section class="signup">
+      <h1>SignUp</h1>
+
+      <form class="form" action="./profile/index.html">
+        <input type="text" id="email" placeholder="Email" />
+        <input type="text" id="pass" placeholder="Password" />
+
+        <span id="err-msg"></span>
+        <button type="submit" class="signup-btn" id="loginbtn">SignUp</button>
+      </form>
+    </section>
+
+    <script src="login.js"></script>
+  </body>
+</html>

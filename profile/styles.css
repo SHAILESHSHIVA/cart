@@ -1,0 +1,84 @@
+/* Write your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,300;1,500;1,600&family=Roboto:ital,wght@0,300;1,500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+header {
+  background-color: black;
+  color: #ffffff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: sticky;
+}
+.left-side-part {
+  padding: 10px;
+  font-weight: 700;
+}
+
+.right-header-part {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  /* border: 2px solid blue; */
+  width: 40%;
+}
+
+span {
+  cursor: pointer;
+}
+
+span:hover {
+  color: grey;
+}
+
+.signup {
+  margin-top: 30px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  margin-left: 30px;
+}
+
+input {
+  outline: none;
+  padding: 10px;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.signup-btn {
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+
+  padding: 5px;
+  background-color: black;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}

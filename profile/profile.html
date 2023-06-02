@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-side-part">MeShop.</div>
+      <div class="right-header-part">
+        <span id="home" onclick="document.location.href='../shop/shop.html'" >Home</span><span id="login" onclick="document.location.href='../login/login.html'">Login</span
+          ><span id="signup" onclick="document.location.href='../signup/signup.html'">SignUp</span><span id="mycart" onclick="document.location.href='../cart/cart.html'">My Cart</span
+          ><span id="profile" onclick="document.location.href='./profile.html'">Profile</span>
+    </header>
+    <div class="wrapper">
+      <div class="myprofile">
+        <h1 class="hdr">My Profile</h1>
+        <form class="form" id="profile1">
+          <input type="text" id="firstname" placeholder="First Name" />
+          <input type="text" id="lastname" placeholder="Last Name" />
+          <span id="err-msg1"></span>
+          <button type="button" class="signup-btn" id="saveinfo">
+            Save Info
+          </button>
+        </form>
+      </div>
+      <div class="editpass">
+        <h1>Edit Password</h1>
+        <form class="form" id="profile2">
+          <input type="text" id="oldpass" placeholder="old Password" />
+          <input type="text" id="newpass" placeholder="New Password" />
+          <input type="text" id="cnewpass" placeholder="Confirm New Password" />
+          <span id="err-msg2"></span>
+          <button type="button" class="signup-btn" id="changepassbtn">
+            Change Password
+          </button>
+          <button type="button" class="signup-btn" id="logoutbtn">
+            LogOut
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
