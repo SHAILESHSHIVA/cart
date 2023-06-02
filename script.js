@@ -5,5 +5,5 @@ if (localStorage.getItem("currentuser")) {
   alert("you have already logged in");
   setTimeout(() => {
     window.location.href = "./profile/profile.html";
-  }, 1000);
+  }, 2000);
 }
